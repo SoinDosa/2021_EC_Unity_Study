@@ -6,6 +6,8 @@ public class EnemyScript : MonoBehaviour
 {
     public Transform playerTrans;
     float enemySpeed = 5.0f;
+
+    
     void Awake()
     {
         playerTrans = GameObject.Find("Player").GetComponent<Transform>();
